@@ -72,4 +72,3 @@ def count_cards(users_list):
   * **Title Design:** The ASCII art for the game's title was created using [this generator](https://budavariam.github.io/asciiart-text/).
 
 -----
-![Screenshot](../BlackJack/Screenshots/Blackjack.png)
