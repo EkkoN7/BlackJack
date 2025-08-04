@@ -5,7 +5,7 @@ print(ascii_art)
 is_running = True
 dealer_cards = None
 player_cards = None
-start_game = input("Welcome to PyCasino! Do you want to start a round of Blackjack? Select (S) to begin or (Q) to quit: ").lower().strip()
+start_game = input("Welcome! Do you want to start a round of Blackjack? Select (S) to begin or (Q) to quit: ").lower().strip()
 if start_game == "s":
     dealers_shuffle = shuffle_cards(deck_of_cards, 2)
     players_shuffle = shuffle_cards(deck_of_cards, 2)
